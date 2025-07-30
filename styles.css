@@ -1,0 +1,136 @@
+body{
+  font-family: Poppins, sans-serif;
+}
+
+/* navbar */
+.logo{
+  font-size: 70px;
+  font-weight: 900;
+  color: chocolate;
+  text-decoration: none;
+}
+.navbar{
+  position: fixed;
+  width: 94vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 4rem;
+  background-color: ghostwhite;
+}
+.navItems{
+  display: flex;
+  gap: 2rem;
+}
+.navLink{
+  text-decoration: none;
+  color: chocolate;
+  font-weight: 500;
+}
+.hireButton{
+  background-color: chocolate;
+  color: ghostwhite;
+  font-weight: 900;
+  font-size: 15px;
+  padding: 0.5rem;
+}
+
+/* hero section */
+.hero{
+  min-height: 100vh;
+}
+.intro{
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+.greetings{
+  font-weight: 900;
+  font-size: 80px;
+  font-family: LEMON MILK, sans-serif;
+  color: chocolate;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 80px;
+  padding-top: 40px;
+}
+.subtitle{
+  text-align: center;
+  background-color: chocolate;
+  color: ghostwhite;
+  width: auto; 
+  padding: 4px;
+  font-size: 29px; 
+}
+.subContainer{
+  display: flex;
+  justify-content: center;
+}
+.viewButtons{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.projectsButton{
+  background-color: chocolate;
+  color: ghostwhite;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 0.5rem;
+}
+.resumeButton{
+  background-color: ghostwhite;
+  color: chocolate;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 0.5rem;
+}
+.linkText{
+  text-decoration: none;
+  color: ghostwhite;
+  font-weight: 500;
+}
+
+
+/* about section */
+.about{
+  min-height: 100vh;
+  scroll-margin: 200px;
+}
+.aboutCard{
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 200px;
+}
+.stack{  
+  width: auto;
+  padding: 2px;
+  padding-inline: 10px;
+  border: 2px solid chocolate;
+  border-radius: 30px;
+}
+.stack:hover{
+  background-color: chocolate;
+  color: ghostwhite;
+  transition: ease-in-out;
+  transition-delay: .2s;
+  cursor: pointer;
+}
+
+
+/* projects section */
+.projects{
+  min-height: 100vh;
+  scroll-margin: 200px;
+}
+
+
+/* contacts section */
+.contacts{
+  min-height: 100vh;
+  scroll-margin: 200px;
+}
+
