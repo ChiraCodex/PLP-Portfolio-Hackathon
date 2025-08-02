@@ -2,76 +2,304 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio for Jackson Ciira" />
+    <meta
+      name="keywords"
+      content="Portfolio, Fullstack Developer, Jackson Ciira, Graphic Designer, Photography, Web Design, Portfolio Website"
+    />
+    <meta name="author" content="Jackson Ciira" />
     <link rel="stylesheet" href="styles.css" />
     <title>Ciira | Portfolio</title>
   </head>
   <body>
-
     <!-- navbar -->
-    <div class="navbar">
+    <header class="navbar">
       <div>
         <a class="logo" href="#home"> C> </a>
       </div>
 
       <nav class="navItems">
         <a class="navLink" href="#about">About</a>
+        <a class="navLink" href="#services">Services</a>
         <a class="navLink" href="#projects">Projects</a>
         <a class="navLink" href="#contacts">Contacts</a>
       </nav>
 
       <button class="hireButton">Hire Me</button>
-    </div>
+    </header>
 
-    <!-- hero section -->
-    <section class="hero" id="home">
-      <div class="intro">
-        <span class="greetings">Hi there,</span>
-        <span class="title">I'm Ciira</span>
-        <div class="subContainer">
-          <h3 class="subtitle">Graphic Designer | Fullstack Developer</h3>
-        </div>
-      </div>
-
-      <div class="viewButtons">
-        <button class="projectsButton"><a class="linkText" href="#projects">
-          View My Projects
-        </a></button>
-        <button class="resumeButton">Download My Resume</button>
-      </div>
-    </section>
-
-    <!-- about section -->
-    <section class="about" id="about">
-      <span class="title">About Me</span>
-      <div class="aboutCard">
+    <main>
+      <!-- hero section -->
+      <section class="hero" id="home">
         <div>
-        <span>My Journey</span>
-      </div>
-      <div class="techstack">
-        <span>Tech Stack</span>
-        <ul>
-          <span class="stack">adobe photoshop</span>
-          <span class="stack">javascript</span>
-          <span class="stack">python</span>
-          <span class="stack">React js</span>
-        </ul>
-      </div>
-      </div>
-    </section>
+          <h1 class="greetings">Hi there,</h1>
+        <article class="title">
+          I'm Ciira, <br />
+          Fullstack Developer based in Nairobi, KE.
+        </article>
 
-    <!-- projects section -->
-    <section class="projects" id="projects">
-      <span class="title">Featured Projects</span>
-    </section>
+        <div class="viewButtons">
+          <button class="projectsButton">
+            <a class="linkText" href="#projects"> View My Projects </a>
+          </button>
+          <button class="resumeButton">Download My Resume</button>
+        </div>
+        </div>
+        <div>
+          <img class="heroImage" src="./images/hero.png" alt="CiiraImage">
+        </div>
+      </section>
 
-    <!-- contacts section -->
-    <section class="contacts" id="contacts">
-      <span class="title">Feel free to Reach Out </span>
-    </section>
+      <!-- about section -->
+      <section class="about" id="about">
+        <h2 class="aboutText">About Me</h2>
+        <div class="aboutCard">
 
-    <!-- footer section -->
-     <section>
+          <!-- Journey -->
+          <div>
+            <h2 class="subTitle">My Journey</h2>
+            <article>
+              I'm a</i> passionate <strong class="subTitle">developer</strong> and <strong class="subTitle">designer</strong> who loves creating digital experiences that make a difference. Each project is a new experience, I enjoy using modern web technologies in my projects. <i> <br/>I bring</i> ideas to life through <strong class="subTitle">clean code</strong> and thoughtful <strong class="subTitle">design</strong>.
+            </article>
+          </div>
 
-     </section>
+          <!-- Favorite tools -->
+          <div>
+          <h2 class="subTitle">My Favourite Tools</h2>
+          <article class="toolsText">
+            <i>These are the Tools</i>
+            <br/>
+            Behind My Designs
+          </article>
+          <div class="tools">
+            <div class="toolCard">
+              <div class="toolLogo">
+                <img class="Logos" src="./images/visual-studio.png" alt="visualStudio Image">
+              </div>
+              95%
+              VS Code
+            </div>
+
+            <div class="toolCard">
+              <div class="toolLogo">
+                <img class="Logos" src="./images/photoshop.png" alt="photoshop Image">
+              </div>
+              90%
+              Photoshop
+            </div>
+            <div class="toolCard">
+              <div class="toolLogo">
+                <img class="Logos" src="./images/figma.png" alt="figma Image">
+              </div>
+              90%
+              Figma
+            </div>
+            <div class="toolCard">
+              <div class="toolLogo">
+                <img class="Logos" src="./images/adobe-illustrator.png" alt="adobe-illustrator Image">
+              </div>
+              70%
+              Illustrator
+            </div>
+            <div class="toolCard">
+              <div class="toolLogo">
+                <img class="Logos" src="./images/laravel.png" alt="laravel Image">
+              </div>
+              50%
+              Laravel</div>
+            <div class="toolCard">
+              <div class="toolLogo">
+                <img class="Logos" src="./images/mysql.png" alt="mysql Image">
+              </div>
+              70%
+              MySQL
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="aboutCard">
+          
+          <!-- Qualifications -->
+          <div>
+            <h2 class="subTitle">Qualifications/ Certifications</h2>
+            <ul>              
+              <li>Certificate Fullstack Development - FaithTech Program- 2025</li>
+              <li>Certificate UI/UX Design - FaithTech Program - 2025</li>
+              <li>Diploma in Fine Arts - BuruBuru Institute of Fine Arts (BIFA) 2018-2020</li>
+            </ul>
+          </div>
+
+          <div class="techCard">
+            <!-- Techstack -->
+           <div class="stackCard">
+            <h2 class="subTitle">Techstack</h2>
+            <div class="stacks">
+            <p class="stack">HTML</p>
+            <p class="stack">Javascript</p>
+            <p class="stack">Python</p>
+            <p class="stack">MySQL</p>
+            <p class="stack">Laravel</p>
+            </div>
+           </div>
+           
+           <!-- Frameworks -->
+          <div class="stackCard">
+             <h2 class="subTitle">Frameworks</h2>
+            <div class="stacks">
+            <p class="stack">React js</p>
+            <p class="stack">Next js</p>
+            <p class="stack">React Native</p>
+            <p class="stack">Typescript</p>
+            <p class="stack">Tailwind CSS</p>
+          </div>
+            </div>
+        </div>
+          </div>
+      </section>
+
+      <!-- Services -->
+       <section class="services" id="services">
+        <h2 class="serviceTitle">
+           Services I Provide
+        </h2>
+        <div class="servicesCard">
+          <!-- graphics design -->
+          <div class="ItemCard">
+            <img class="ItemImage" src="./images//graphics.jpg" alt="graphicsImage">
+          <h3 class="ItemTitle">Graphics Design</h3>
+          <article>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ut adipisci vero voluptatem aliquid suscipit eligendi, quam fuga ipsum velit alias est harum temporibus dolorum repellendus? Est dolor exercitationem ducimus!
+          </article>
+          <button class="servicesButton">Learn more</button>
+         </div>
+         <!-- App Development -->
+          <div class="ItemCard">
+            <img class="ItemImage" src="./images/Dev.jpg" alt="Dev image">
+            <h3 class="ItemTitle">Application Development</h3>
+            <article>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci itaque aspernatur vel ducimus exercitationem, reiciendis hic voluptatem repellat deleniti perferendis odit eos possimus, sunt doloribus officiis fugiat at. Dolor, dolores!
+            </article>
+            <button  class="servicesButton">Learn more >></button>
+          </div>
+          <!-- web development -->
+           <div class="ItemCard">
+            <img class="ItemImage" src="./images/Dev.jpg" alt="DevImage">
+            <h3 class="ItemTitle">Website Development</h3>
+            <article>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deleniti incidunt cum consectetur suscipit earum cumque veritatis distinctio fugiat quidem odit asperiores, libero laborum ab reiciendis beatae atque consequuntur magnam!
+            </article>
+            <button  class="servicesButton">Learn more >></button>
+           </div>
+           <!-- photgraphy -->
+             <div class="ItemCard">
+            <img class="ItemImage" src="./images/soko.jpg" alt="photographyImage">
+            <h3 class="ItemTitle">Photography</h3>
+            <article>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deleniti incidunt cum consectetur suscipit earum cumque veritatis distinctio fugiat quidem odit asperiores, libero laborum ab reiciendis beatae atque consequuntur magnam!
+            </article>
+            <button  class="servicesButton">Learn more >></button>
+           </div>
+         </div>
+       </section>
+
+      <!-- projects section -->
+      <section class="projects" id="projects">
+        <h3 class="projectsTitle">My Latest Projects</h3>
+       <div class="projectsGrid">
+         <div class="ItemCard">
+          <h3 class="ItemTitle">FUllStack E-commerce Website</h3>
+          <article>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe ab unde quisquam, fugit asperiores veritatis atque nisi voluptate, ipsam rerum vitae doloribus, neque temporibus! Debitis nisi aspernatur ducimus deleniti. Obcaecati?
+          </article>
+        </div>
+        <div class="ItemCard">
+          <h3 class="ItemTitle"> Documents Delivery Website</h3>
+          <article>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe ab unde quisquam, fugit asperiores veritatis atque nisi voluptate, ipsam rerum vitae doloribus, neque temporibus! Debitis nisi aspernatur ducimus deleniti. Obcaecati?
+          </article>
+        </div>
+        <div class="ItemCard">
+          <h3 class="ItemTitle"> Tattoo Shop Website</h3>
+          <article>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe ab unde quisquam, fugit asperiores veritatis atque nisi voluptate, ipsam rerum vitae doloribus, neque temporibus! Debitis nisi aspernatur ducimus deleniti. Obcaecati?
+          </article>
+        </div>
+       
+        <div class="ItemCard">
+          <h3 class="ItemTitle"> Website Rebranding</h3>
+          <article>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe ab unde quisquam, fugit asperiores veritatis atque nisi voluptate, ipsam rerum vitae doloribus, neque temporibus! Debitis nisi aspernatur ducimus deleniti. Obcaecati?
+          </article>
+        </div>
+        </div>
+        <div class="viewBtn">
+          <button class="viewBtn">
+          View more Projects
+        </button>
+        </div>
+       </div>
+      </section>
+
+      <!-- contacts section -->
+      <section class="contacts" id="contacts">
+        <div class="contactsCard">
+          <span class="title">Feel free to Reach Out </span>
+          <span>Let's Talk about Your Next Project</span>
+          <article>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos numquam, <br/>omnis at animi cupiditate repudiandae pariatur eius fugit 
+          </article>
+          <div>+254 722 530 597</div>
+          <div>ciiradev@gmail.com</div>
+          <div>linkedIn</div>
+          <div>Nairobi,KE</div>
+        </div>
+        <form action="#">
+          <div class="formDetails">
+            <label class="label">
+            <span>Your Name *</span>
+            <input class="formInput" type="text" placeholder="Enter Your  Name">            
+          </label>
+          <label class="label">
+            <span>Email *</span>
+            <input class="formInput" type="email" placeholder=" Enter Email Address">            
+          </label>
+          <label class="label">
+            <span>Phone *</span>
+            <input class="formInput" type="text" placeholder="Enter Phone Number">            
+          </label>
+          <label class="label">
+            <span>I'm interested in *</span>
+            <select class="formInput" name="Interest" id="#"> 
+              <option value="select">select</option>             
+              <option value="App Development">App Development</option>
+              <option value="Graphic Design">Graphic Design</option>
+              <option value="Photography">Photography</option>
+              <option value="Web Development"> Web Development</option>
+            </select>            
+          </label>
+
+          <label class="label">
+            Budget Range(Kes) *
+            <input class="formInput" type="text" placeholder="KES">
+          </label>
+
+          <label class="label">
+            Country
+            <input class="formInput" type="text" placeholder="Enter your Country">
+          </label>
+          </div>
+          <label class="label">
+            Message
+            <textarea class="TextArea" name="message" id="#" rows="20" cols="550">
+              
+
+            </textarea>
+          </label>
+        </form>
+      </section>
+
+      <!-- footer section -->
+      <section></section>
+    </main>
   </body>
 </html>
