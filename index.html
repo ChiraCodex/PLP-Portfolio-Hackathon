@@ -1,137 +1,122 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Portfolio for Jackson Ciira" />
-    <meta
-      name="keywords"
-      content="Portfolio, Fullstack Developer, Jackson Ciira, Graphic Designer, Photography, Web Design, Portfolio Website"
-    />
+    <meta name="description" content="Portfolio for Jackson Ciira - Fullstack Developer & Designer" />
+    <meta name="keywords" content="Jackson Ciira, Fullstack Developer, Web Design, Portfolio, UI/UX, Nairobi Developer" />
     <meta name="author" content="Jackson Ciira" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Ciira | Portfolio</title>
+    <title>Ciira | Fullstack Developer Portfolio</title>
   </head>
-  <body>
-    <!-- navbar -->
-    <header class="navbar">
-      <div>
-        <a class="logo" href="#home"> C> </a>
-      </div>
 
+  <body>
+    <header class="navbar">
+      <a class="logo" href="#home">JC</a>
       <nav class="navItems">
         <a class="navLink" href="#about">About</a>
         <a class="navLink" href="#services">Services</a>
         <a class="navLink" href="#projects">Projects</a>
-        <a class="navLink" href="#contacts">Contacts</a>
+        <a class="navLink" href="#contacts">Contact</a>
       </nav>
-
-      <button class="hireButton">Hire Me</button>
+      <a href="#contacts" class="hireButton">Hire Me</a>
     </header>
 
     <main>
-      <!-- hero section -->
       <section class="hero" id="home">
-        <div>
+        <div class="heroContent">
           <h1 class="greetings">Hi there,</h1>
-        <article class="title">
-          I'm Ciira, <br />
-          Fullstack Developer based in Nairobi, KE.
-        </article>
-
-        <div class="viewButtons">
-          <button class="projectsButton">
-            <a class="linkText" href="#projects"> View My Projects </a>
-          </button>
-          <button class="resumeButton">Download My Resume</button>
+          <p class="heroText">I'm Ciira,<br />Fullstack Developer based in Nairobi, KE.</p>
+          <div class="viewButtons">
+            <div>
+              <button class="projectsButton"><a href="#projects">View My Projects</a></button>
+            <button class="resumeButton">Download Resume</button>
+            </div>
+            <div class="Interact">
+              <p>Let's Interact here</p>
+            <div>
+              <img src="./images/behance (1).png" alt="behanceImage">
+              <img src="./images/github (1).png" alt="githubImage">
+              <img  src="./images/linkedin.png" alt="LinkedInImage">
+            </div>
+            </div>
+          </div>
         </div>
-        </div>
-        <div>
-          <img class="heroImage" src="./images/hero.png" alt="CiiraImage">
-        </div>
+        <img class="heroImage" src="./images/hero.png" alt="Portrait of Jackson Ciira">
       </section>
 
-      <!-- about section -->
       <section class="about" id="about">
         <h2 class="aboutText">About Me</h2>
         <div class="aboutCard">
+          <article class="journeyCard">
+          <h3 class="subTitle">My Journey</h3>
+          <p>
+            I'm a passionate <strong>developer</strong> and <strong>designer</strong> who loves creating impactful digital experiences. I enjoy using modern web technologies and bring ideas to life through <strong>clean code</strong> and thoughtful <strong>design</strong>.
+          </p>
+        </article>
 
-          <!-- Journey -->
-          <div>
-            <h2 class="subTitle">My Journey</h2>
-            <article>
-              I'm a</i> passionate <strong class="subTitle">developer</strong> and <strong class="subTitle">designer</strong> who loves creating digital experiences that make a difference. Each project is a new experience, I enjoy using modern web technologies in my projects. <i> <br/>I bring</i> ideas to life through <strong class="subTitle">clean code</strong> and thoughtful <strong class="subTitle">design</strong>.
-            </article>
-          </div>
-
-          <!-- Favorite tools -->
-          <div>
-          <h2 class="subTitle">My Favourite Tools</h2>
-          <article class="toolsText">
-            <i>These are the Tools</i>
-            <br/>
-            Behind My Designs
+        <aside class="certCard">
+          <article class="cert">
+            <h3 class="subTitle">Certifications</h3>
+          <ul>
+            <li>Fullstack Development - FaithTech Program (2025)</li>
+            <li>UI/UX Design - FaithTech Program (2025)</li>
+            <li>Fine Arts Diploma - BIFA (2018-2020)</li>
+          </ul>
           </article>
-          <div class="tools">
-            <div class="toolCard">
-              <div class="toolLogo">
-                <img class="Logos" src="./images/visual-studio.png" alt="visualStudio Image">
-              </div>
-              95%
-              VS Code
-            </div>
 
-            <div class="toolCard">
-              <div class="toolLogo">
-                <img class="Logos" src="./images/photoshop.png" alt="photoshop Image">
-              </div>
-              90%
-              Photoshop
-            </div>
-            <div class="toolCard">
-              <div class="toolLogo">
-                <img class="Logos" src="./images/figma.png" alt="figma Image">
-              </div>
-              90%
-              Figma
-            </div>
-            <div class="toolCard">
-              <div class="toolLogo">
-                <img class="Logos" src="./images/adobe-illustrator.png" alt="adobe-illustrator Image">
-              </div>
-              70%
-              Illustrator
-            </div>
-            <div class="toolCard">
-              <div class="toolLogo">
-                <img class="Logos" src="./images/laravel.png" alt="laravel Image">
-              </div>
-              50%
-              Laravel</div>
-            <div class="toolCard">
-              <div class="toolLogo">
-                <img class="Logos" src="./images/mysql.png" alt="mysql Image">
-              </div>
-              70%
-              MySQL
-            </div>
-          </div>
+          <article class="experience">
+            <h3 class="subTitle">Work Experience</h3>
+          <ul>
+            <li>Graphics Designer - e-Spire Solutions (2024–Present)</li>
+            <li>Photo Editor - ApanTambua Dsgns (2020–2023)</li>
+            <li>Studio Assistant - Farm Concern Int. (2017–2020)</li>
+          </ul>
+          </article>
+        </aside>
         </div>
-        </div>
-        <div class="aboutCard">
-          
-          <!-- Qualifications -->
+        <!-- favorite tools -->
+        <section class="tools-tech">
           <div>
-            <h2 class="subTitle">Qualifications/ Certifications</h2>
-            <ul>              
-              <li>Certificate Fullstack Development - FaithTech Program- 2025</li>
-              <li>Certificate UI/UX Design - FaithTech Program - 2025</li>
-              <li>Diploma in Fine Arts - BuruBuru Institute of Fine Arts (BIFA) 2018-2020</li>
+            <h3 class="toolsTitle">Favorite Tools</h3>
+            <p>These are My Most Used Tools, based on how often I Use Them</p>
+            <ul class="tools">
+              <li class="textBlock">
+                <img class="logos" src="./images/visual-studio.png" alt="VS Code"> 
+              <article class="toolsText">
+                <span class="toolName">Vs Code</span>
+                <span class="percent">98%</span>
+              </article>
+            </li>
+              <li class="textBlock">
+                <img class="logos" src="./images/photoshop.png" alt="Photoshop">
+              <article class="toolsText">
+                <span class="toolName">Photoshop</span>
+                <span class="percent">90%</span>
+              </article>
+              </li>
+              <li class="textBlock"><img class="logos" src="./images/figma.png" alt="Figma"> <article class="toolsText">
+                <span class="toolName">Figma</span>
+                <span class="percent">90%</span>
+              </article></li>
+              <li class="textBlock"><img class="logos" src="./images/adobe-illustrator.png" alt="Illustrator">
+              <article class="toolsText">
+                <span class="toolName">Illustrator</span>
+                <span class="percent">70%</span>
+              </article></li>
+              <li class="textBlock"><img class="logos" src="./images/laravel.png" alt="Laravel"><article class="toolsText">
+                <span class="toolName">Laravel</span>
+                <span class="percent">50%</span>
+              </article></li>
+              <li class="textBlock"><img class="logos" src="./images/mysql.png" alt="MySQL"> <article class="toolsText">
+                <span class="toolName">MySQL</span>
+                <span class="percent">70%</span>
+              </article></li>
             </ul>
           </div>
 
-          <div class="techCard">
-            <!-- Techstack -->
-           <div class="stackCard">
+          <div>
+            <div class="stackCard">
             <h2 class="subTitle">Techstack</h2>
             <div class="stacks">
             <p class="stack">HTML</p>
@@ -141,9 +126,7 @@
             <p class="stack">Laravel</p>
             </div>
            </div>
-           
-           <!-- Frameworks -->
-          <div class="stackCard">
+             <div class="stackCard">
              <h2 class="subTitle">Frameworks</h2>
             <div class="stacks">
             <p class="stack">React js</p>
@@ -153,153 +136,161 @@
             <p class="stack">Tailwind CSS</p>
           </div>
             </div>
+        </section>
+      </section>
+      <!-- services -->
+      <section class="services" id="services">
+        <h2 class="serviceTitle">Services I Provide</h2>
+        <div class="servicesCard">
+          <article class="card">
+            <img class="cardImage" src="./images/graphics.jpg" alt="Graphics design work">
+            <h3 class="projectsTitle">Graphics Design</h3>
+            <p>Creative visual storytelling through modern design trends.</p>
+            <button class="moreBtn">See More</button>
+          </article>
+
+          <article class="card">
+            <img class="cardImage" src="./images/Dev.jpg" alt="App development">
+            <h3 class="projectsTitle">App Development</h3>
+            <p>Robust mobile and web apps using modern frameworks and APIs.</p>
+            <button class="moreBtn">See More</button>
+          </article>
+
+          <article class="card">
+            <img class="cardImage" src="./images/Dev.jpg" alt="Website development">
+            <h3 class="projectsTitle">Website Development</h3>
+            <p>SEO-optimized websites that are scalable, fast, and accessible.</p>
+           <button class="moreBtn">See More</button>
+          </article>
+
+          <article class="card">
+            <img class="cardImage" src="./images/soko.jpg" alt="Photography">
+            <h3 class="projectsTitle">Photography</h3>
+            <p>Professional photography and photo editing for personal and commercial needs.</p>
+           <button class="moreBtn">See More</button>
+          </article>
         </div>
-          </div>
       </section>
 
-      <!-- Services -->
-       <section class="services" id="services">
-        <h2 class="serviceTitle">
-           Services I Provide
-        </h2>
-        <div class="servicesCard">
-          <!-- graphics design -->
-          <div class="ItemCard">
-            <img class="ItemImage" src="./images//graphics.jpg" alt="graphicsImage">
-          <h3 class="ItemTitle">Graphics Design</h3>
-          <article>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ut adipisci vero voluptatem aliquid suscipit eligendi, quam fuga ipsum velit alias est harum temporibus dolorum repellendus? Est dolor exercitationem ducimus!
-          </article>
-          <button class="servicesButton">Learn more</button>
-         </div>
-         <!-- App Development -->
-          <div class="ItemCard">
-            <img class="ItemImage" src="./images/Dev.jpg" alt="Dev image">
-            <h3 class="ItemTitle">Application Development</h3>
-            <article>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci itaque aspernatur vel ducimus exercitationem, reiciendis hic voluptatem repellat deleniti perferendis odit eos possimus, sunt doloribus officiis fugiat at. Dolor, dolores!
-            </article>
-            <button  class="servicesButton">Learn more >></button>
-          </div>
-          <!-- web development -->
-           <div class="ItemCard">
-            <img class="ItemImage" src="./images/Dev.jpg" alt="DevImage">
-            <h3 class="ItemTitle">Website Development</h3>
-            <article>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deleniti incidunt cum consectetur suscipit earum cumque veritatis distinctio fugiat quidem odit asperiores, libero laborum ab reiciendis beatae atque consequuntur magnam!
-            </article>
-            <button  class="servicesButton">Learn more >></button>
-           </div>
-           <!-- photgraphy -->
-             <div class="ItemCard">
-            <img class="ItemImage" src="./images/soko.jpg" alt="photographyImage">
-            <h3 class="ItemTitle">Photography</h3>
-            <article>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deleniti incidunt cum consectetur suscipit earum cumque veritatis distinctio fugiat quidem odit asperiores, libero laborum ab reiciendis beatae atque consequuntur magnam!
-            </article>
-            <button  class="servicesButton">Learn more >></button>
-           </div>
-         </div>
-       </section>
-
-      <!-- projects section -->
+      <!-- project section -->
       <section class="projects" id="projects">
-        <h3 class="projectsTitle">My Latest Projects</h3>
-       <div class="projectsGrid">
-         <div class="ItemCard">
-          <h3 class="ItemTitle">FUllStack E-commerce Website</h3>
-          <article>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe ab unde quisquam, fugit asperiores veritatis atque nisi voluptate, ipsam rerum vitae doloribus, neque temporibus! Debitis nisi aspernatur ducimus deleniti. Obcaecati?
+        <h2>My Latest Projects</h2>
+        <div class="projectsGrid">
+          <article class="ItemCard">
+            <img class="ItemImage" src="./images/Dev.jpg" alt="E-commerce Project">
+            <h3 class="projectsTitle">Fullstack E-commerce Website</h3>
+            <p>Built with React, MySQL, API, TypeScript, and Tailwind CSS.</p>
+             <div class="viewBtn">
+              <button class="demoBtn"> See Demo</button>
+              <button class="codeBtn">Get Code</button>
+            </div>
           </article>
-        </div>
-        <div class="ItemCard">
-          <h3 class="ItemTitle"> Documents Delivery Website</h3>
-          <article>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe ab unde quisquam, fugit asperiores veritatis atque nisi voluptate, ipsam rerum vitae doloribus, neque temporibus! Debitis nisi aspernatur ducimus deleniti. Obcaecati?
+
+          <article class="ItemCard">
+            <img class="ItemImage" src="./images/Dev.jpg" alt="Documents Delivery Website">
+            <h3 class="projectsTitle">Documents Delivery Website</h3>
+            <p>Secure and fast delivery of documents across Kenya.</p>
+             <div class="viewBtn">
+              <button class="demoBtn"> See Demo</button>
+              <button class="codeBtn">Get Code</button>
+            </div>
           </article>
-        </div>
-        <div class="ItemCard">
-          <h3 class="ItemTitle"> Tattoo Shop Website</h3>
-          <article>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe ab unde quisquam, fugit asperiores veritatis atque nisi voluptate, ipsam rerum vitae doloribus, neque temporibus! Debitis nisi aspernatur ducimus deleniti. Obcaecati?
+
+          <article class="ItemCard">
+            <img class="ItemImage" src="./images/Dev.jpg" alt="Tattoo Shop Website">
+            <h3 class="projectsTitle">Tattoo Shop Website</h3>
+            <p>Portfolio and booking platform for tattoo services.</p>
+             <div class="viewBtn">
+              <button class="demoBtn"> See Demo</button>
+              <button class="codeBtn">Get Code</button>
+            </div>
           </article>
-        </div>
-       
-        <div class="ItemCard">
-          <h3 class="ItemTitle"> Website Rebranding</h3>
-          <article>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe ab unde quisquam, fugit asperiores veritatis atque nisi voluptate, ipsam rerum vitae doloribus, neque temporibus! Debitis nisi aspernatur ducimus deleniti. Obcaecati?
+
+          <article class="ItemCard">
+            <img class="ItemImage" src="./images/Dev.jpg" alt="Website Rebranding">
+            <h3 class="projectsTitle">Website Rebranding</h3>
+            <p>Modernized UI for a local business platform with a fresh visual identity.</p>
+            <div class="viewBtn">
+              <button class="demoBtn"> See Demo</button>
+              <button class="codeBtn">Get Code</button>
+            </div>
           </article>
-        </div>
-        </div>
-        <div class="viewBtn">
-          <button class="viewBtn">
-          View more Projects
+        
+        <button>
+          <p class="viewProjects">View More Projects</p>
         </button>
         </div>
-       </div>
       </section>
 
-      <!-- contacts section -->
+      <!-- Contacts Section -->
       <section class="contacts" id="contacts">
         <div class="contactsCard">
-          <span class="title">Feel free to Reach Out </span>
-          <span>Let's Talk about Your Next Project</span>
-          <article>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos numquam, <br/>omnis at animi cupiditate repudiandae pariatur eius fugit 
-          </article>
-          <div>+254 722 530 597</div>
-          <div>ciiradev@gmail.com</div>
-          <div>linkedIn</div>
-          <div>Nairobi,KE</div>
+          <h2>Let’s Talk about your Next Project</h2>
+          <p>Feel <i>Free</i> to Reach out</p>
+          <ul>
+            <li><img class="contactsImage" src="./images/telephone-call.png" alt="Call"> +254 722 530 597</li>
+            <li><img class="contactsImage" src="./images/gmail.png" alt="Email"> ciiradev@gmail.com</li>
+            <li>
+              <img class="contactsImage" src="./images/linkedin.png" alt="LinkedIn">
+              LinkedIn: <a href="#">@ciira</a></li>
+            <li>
+              <img class="contactsImage" src="./images/location.png" alt="">
+              Nairobi, KE</li>
+          </ul>
         </div>
-        <form action="#">
+        <!-- contacts form -->
+        <form class="contactForm">
           <div class="formDetails">
+           
+              <label class="label">
+              <span>Your Name *</span>
+              <input class="formInput" type="text" placeholder="Enter Your Name" required>
+            </label>
+
             <label class="label">
-            <span>Your Name *</span>
-            <input class="formInput" type="text" placeholder="Enter Your  Name">            
-          </label>
-          <label class="label">
-            <span>Email *</span>
-            <input class="formInput" type="email" placeholder=" Enter Email Address">            
-          </label>
-          <label class="label">
-            <span>Phone *</span>
-            <input class="formInput" type="text" placeholder="Enter Phone Number">            
-          </label>
-          <label class="label">
-            <span>I'm interested in *</span>
-            <select class="formInput" name="Interest" id="#"> 
-              <option value="select">select</option>             
-              <option value="App Development">App Development</option>
-              <option value="Graphic Design">Graphic Design</option>
-              <option value="Photography">Photography</option>
-              <option value="Web Development"> Web Development</option>
-            </select>            
-          </label>
+              <span>Email *</span>
+              <input class="formInput" type="email" placeholder="Enter Email Address" required>
+            </label>
 
-          <label class="label">
-            Budget Range(Kes) *
-            <input class="formInput" type="text" placeholder="KES">
-          </label>
+             <label class="label">
+              <span>Phone *</span>
+              <input class="formInput" type="text" placeholder="Enter Phone Number" required>
+            </label>
 
-          <label class="label">
-            Country
-            <input class="formInput" type="text" placeholder="Enter your Country">
-          </label>
+            <label class="label">
+              <span>I'm interested in *</span>
+              <select class="formInput" name="Interest" required>
+                <option value="">Select</option>
+                <option value="App Development">App Development</option>
+                <option value="Graphic Design">Graphic Design</option>
+                <option value="Photography">Photography</option>
+                <option value="Web Development">Web Development</option>
+              </select>
+            </label>
+            
+              <label class="label">
+                <span>Budget Range (Kes) *</span>
+              <input class="formInput" type="text" placeholder="KES" required>
+            </label>
+
+            <label class="label">
+              <span>Country</span>
+              <input class="formInput" type="text" placeholder="Enter your Country">
+            </label>
+            
+
+            <label class="textareaLabel">Message
+              <textarea class="TextArea" name="message" placeholder="Your message..." required></textarea>
+            </label>
           </div>
-          <label class="label">
-            Message
-            <textarea class="TextArea" name="message" id="#" rows="20" cols="550">
-              
-
-            </textarea>
-          </label>
+          <button>Send Message</button>
         </form>
       </section>
-
-      <!-- footer section -->
-      <section></section>
     </main>
+
+    <!-- footer -->
+    <footer>
+      <p><strong>Jackson.Ciira</strong> All rights reserved. 2025 </p>
+    </footer>
   </body>
 </html>
