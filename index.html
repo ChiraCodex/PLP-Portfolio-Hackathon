@@ -11,7 +11,7 @@
   </head>
 
   <body>
-    <header class="navbar">
+    <header class="navbar slide-down">
       <a class="logo" href="#home">JC</a>
       <input type="checkbox" id="menu-toggle" class="menu-toggle" />
 <label for="menu-toggle" class="hamburger">&#9776;</label>
@@ -22,12 +22,12 @@
   <a class="navLink" href="#projects">Projects</a>
   <a class="navLink" href="#contacts">Contact</a>
 </nav>
-<a href="#contacts" class="hireButton">Hire Me</a>
+<a href="#contacts" class="hireButton pulse">Hire Me</a>
 
     </header>
 
     <main>
-      <section class="hero" id="home">
+      <section class="hero animate-on-scroll delay-1" id="home">
         <div class="heroContent">
           <h1 class="greetings">Hi there,</h1>
           <p class="heroText">I'm <strong>Ciira</strong>,<br />Fullstack Developer based in Nairobi, KE.</p>
@@ -39,21 +39,29 @@
             <div class="Interact">
               <span>Let's Interact here</span>
             <article>
-              <img src="./images/behance (1).png" alt="behanceImage">
-              <img src="./images/github (1).png" alt="githubImage">
-              <img  src="./images/linkedin.png" alt="LinkedInImage">
+              <a href="https://www.behance.net/ciirachira">
+                <img class="pulse" src="./images/behance (1).png" alt="behanceImage" loading="lazy">
+              </a>
+              <a href="https://github.com/ChiraCodex">
+                <img class="pulse" src="./images/github (1).png" alt="githubImage" loading="lazy">
+              </a>
+              <a href="https://www.linkedin.com/in/jacksonchira/">
+                 <img class="pulse" src="./images/linkedin.png" alt="LinkedInImage" loading="lazy">
+              </a>
             </article>
             </div>
           </div>
         </div>
-        <img class="heroImage" src="./images/hero.png" alt="Portrait of Jackson Ciira">
+        <img class="heroImage" src="./images/hero.png" alt="heroImage" loading="lazy">
       </section>
+      
 
-      <section class="about" id="about">
+      <!-- About section -->
+      <section class="about animate-on-scroll delay-1" id="about">
         <h2 class="aboutText">About Me</h2>
         <div class="aboutCard">
           <article class="journeyCard">
-          <h3 class="subTitle">My Journey</h3>
+          <h3 class="journeyTitle">My Journey</h3>
           <p>
             I'm a passionate <strong>developer</strong> and <strong>designer</strong> who loves creating impactful digital experiences. I enjoy using modern web technologies and bring ideas to life through <strong>clean code</strong> and thoughtful <strong>design</strong>.
           </p>
@@ -61,7 +69,7 @@
 
         <aside class="certCard">
           <article class="cert">
-            <h3 class="subTitle">Certifications</h3>
+            <h3 class="certTitle">Certifications</h3>
           <ul>
             <li>Fullstack Development - FaithTech Program (2025)</li>
             <li>UI/UX Design - FaithTech Program (2025)</li>
@@ -70,7 +78,7 @@
           </article>
 
           <article class="experience">
-            <h3 class="subTitle">Work Experience</h3>
+            <h3 class="expTitle">Work Experience</h3>
           <ul>
             <li>Graphics Designer - e-Spire Solutions (2024–Present)</li>
             <li>Photo Editor - ApanTambua Dsgns (2020–2023)</li>
@@ -80,48 +88,48 @@
         </aside>
         </div>
         <!-- favorite tools -->
-        <section class="tools-tech">
+        <section class="tools-tech animate-on-scroll delay-2">
           <div>
             <h3 class="toolsTitle">Favorite Tools</h3>
             <p>These are My Most Used Tools, based on how often I Use Them</p>
             <ul class="tools">
               <li class="textBlock">
-                <img class="logos" src="./images/visual-studio.png" alt="VS Code"> 
+                <img class="logos pulse" src="./images/visual-studio.png" alt="VSCodeImage" loading="lazy"> 
               <article class="toolsText">
                 <span class="toolName">Vs Code</span>
                 <span class="percent">98%</span>
               </article>
             </li>
               <li class="textBlock">
-                <img class="logos" src="./images/photoshop.png" alt="Photoshop">
+                <img class="logos pulse" src="./images/photoshop.png" alt="PhotoshopImage" loading="lazy">
               <article class="toolsText">
                 <span class="toolName">Photoshop</span>
                 <span class="percent">90%</span>
               </article>
               </li>
-              <li class="textBlock"><img class="logos" src="./images/figma.png" alt="Figma"> <article class="toolsText">
+              <li class="textBlock "><img class="logos pulse" src="./images/figma.png" alt="FigmaImage" loading="lazy"> <article class="toolsText">
                 <span class="toolName">Figma</span>
                 <span class="percent">90%</span>
               </article></li>
-              <li class="textBlock"><img class="logos" src="./images/adobe-illustrator.png" alt="Illustrator">
+              <li class="textBlock"><img class="logos pulse" src="./images/adobe-illustrator.png" alt="IllustratorImage" loading="lazy">
               <article class="toolsText">
                 <span class="toolName">Illustrator</span>
                 <span class="percent">70%</span>
               </article></li>
-              <li class="textBlock"><img class="logos" src="./images/laravel.png" alt="Laravel"><article class="toolsText">
+              <li class="textBlock"><img class="logos pulse" src="./images/laravel.png" alt="LaravelImage" loading="lazy"><article class="toolsText">
                 <span class="toolName">Laravel</span>
                 <span class="percent">50%</span>
               </article></li>
-              <li class="textBlock"><img class="logos" src="./images/mysql.png" alt="MySQL"> <article class="toolsText">
+              <li class="textBlock"><img class="logos pulse" src="./images/mysql.png" alt="MySQLImage" loading="lazy"> <article class="toolsText">
                 <span class="toolName">MySQL</span>
                 <span class="percent">70%</span>
               </article></li>
             </ul>
           </div>
 
-          <div>
+          <div class="stackContainer">
             <div class="stackCard">
-            <h2 class="subTitle">Techstack</h2>
+            <h2 class="techTitle">Techstack</h2>
             <div class="stacks">
             <p class="stack">HTML</p>
             <p class="stack">Javascript</p>
@@ -131,7 +139,7 @@
             </div>
            </div>
              <div class="stackCard">
-             <h2 class="subTitle">Frameworks</h2>
+             <h2 class="framesTitle">Frameworks</h2>
             <div class="stacks">
             <p class="stack">React js</p>
             <p class="stack">Next js</p>
@@ -143,46 +151,49 @@
         </section>
       </section>
       <!-- services -->
-      <section class="services" id="services">
+      <section class="services animate-on-scroll delay-3" id="services">
         <h2 class="serviceTitle">Services I Provide</h2>
+        <p>I offer a blend of creativity and technical expertise to help bring your ideas to life. Whether you're looking for a standout design, a responsive website, or a functional app, I’m here to craft solutions that truly fit your needs. Let’s build something amazing together!</p>
         <div class="servicesCard">
           <article class="card">
             <img class="cardImage" src="./images/graphics.jpg" alt="Graphics design work">
             <h3 class="projectsTitle">Graphics Design</h3>
-            <p>Creative visual storytelling through modern design trends.</p>
+            <p>I create visually compelling designs that tell your story and capture attention. From logos to brand assets, I focus on clarity, creativity, and impact.</p>
             <button class="moreBtn">See More</button>
           </article>
 
           <article class="card">
-            <img class="cardImage" src="./images/Dev.jpg" alt="App development">
+            <img class="cardImage" src="./images/Dev2.jpg" alt="App development" loading="lazy">
             <h3 class="projectsTitle">App Development</h3>
-            <p>Robust mobile and web apps using modern frameworks and APIs.</p>
+            <p>I develop smooth, intuitive mobile and web apps that bring your ideas to life. Performance, functionality, and a great user experience are my top priorities.
+
+.</p>
             <button class="moreBtn">See More</button>
           </article>
 
           <article class="card">
-            <img class="cardImage" src="./images/Dev.jpg" alt="Website development">
+            <img class="cardImage" src="./images/Dev.jpg" alt="Website development" loading="lazy">
             <h3 class="projectsTitle">Website Development</h3>
-            <p>SEO-optimized websites that are scalable, fast, and accessible.</p>
+            <p>I build responsive, user-friendly websites that work seamlessly across devices. Each site is tailored to your goals, whether it's for business, portfolio, or something in between.</p>
            <button class="moreBtn">See More</button>
           </article>
 
           <article class="card">
-            <img class="cardImage" src="./images/soko.jpg" alt="Photography">
+            <img class="cardImage" src="./images/photography.jpg" alt="PhotographyImage" loading="lazy">
             <h3 class="projectsTitle">Photography</h3>
-            <p>Professional photography and photo editing for personal and commercial needs.</p>
+            <p>I capture high-quality photos that reflect your vision and style. Whether for events, products, or personal shoots, I focus on delivering vibrant, polished imagery.</p>
            <button class="moreBtn">See More</button>
           </article>
         </div>
       </section>
 
       <!-- project section -->
-      <section class="projects" id="projects">
+      <section class="projects animate-on-scroll delay-4" id="projects">
         <h2>My Latest Projects</h2>
         <div class="projectsGrid">
           <article class="ItemCard">
-            <img class="ItemImage" src="./images/Dev.jpg" alt="E-commerce Project">
-            <h3 class="projectsTitle">Fullstack E-commerce Website</h3>
+            <img class="ItemImage" src="./images/ecomerce.jpg" alt="E-commerce Project" loading="lazy">
+            <h3 class="projectsTitle">Fullstack Website</h3>
             <p>Built with React, MySQL, API, TypeScript, and Tailwind CSS.</p>
              <div class="viewBtn">
               <button class="demoBtn">See Demo</button>
@@ -191,7 +202,7 @@
           </article>
 
           <article class="ItemCard">
-            <img class="ItemImage" src="./images/Dev.jpg" alt="Documents Delivery Website">
+            <img class="ItemImage" src="./images/delivery.jpg" alt="Documents Delivery Website" loading="lazy">
             <h3 class="projectsTitle">Documents Delivery Website</h3>
             <p>Secure and fast delivery of documents across Kenya.</p>
              <div class="viewBtn">
@@ -201,7 +212,7 @@
           </article>
 
           <article class="ItemCard">
-            <img class="ItemImage" src="./images/Dev.jpg" alt="Tattoo Shop Website">
+            <img class="ItemImage" src="./images/tattooShop.jpg" alt="Tattoo Shop Website" loading="lazy">
             <h3 class="projectsTitle">Tattoo Shop Website</h3>
             <p>Portfolio and booking platform for tattoo services.</p>
              <div class="viewBtn">
@@ -211,7 +222,7 @@
           </article>
 
           <article class="ItemCard">
-            <img class="ItemImage" src="./images/Dev.jpg" alt="Website Rebranding">
+            <img class="ItemImage" src="./images/Dev.jpg" alt="Website Rebranding" loading="lazy">
             <h3 class="projectsTitle">Website Rebranding</h3>
             <p>Modernized UI for a local business platform with a fresh visual identity.</p>
             <div class="viewBtn">
@@ -219,30 +230,33 @@
               <button class="codeBtn">Get Code</button>
             </div>
           </article>
-        
-        <button>
+        </div>
+        <button class="ViewMorebtn">
           <p class="viewProjects">View More Projects</p>
         </button>
-        </div>
       </section>
 
       <!-- Contacts Section -->
-      <section class="contacts" id="contacts">
+      <section class="contacts animate-on-scroll delay-5" id="contacts">
         <div class="contactsCard">
           <h2>Let’s Talk about your Next Project</h2>
           <p>Feel <i>Free</i> to Reach out</p>
           <ul>
-            <li><img class="contactsImage" src="./images/telephone-call.png" alt="Call"> +254 722 530 597</li>
-            <li><img class="contactsImage" src="./images/gmail.png" alt="Email"> ciiradev@gmail.com</li>
+            <li><img class="contactsImage" src="./images/telephone-call.png" alt="Call" loading="lazy"><a href="https://wa.me/254722530597" target="_blank">Let's Chat on WhatsApp</a>
+</li>
+            <li><img class="contactsImage" src="./images/gmail.png" alt="EmailImage"> <a href="mailto:ciiradev@gmail.com">You can Email Me Here!</a></li>
             <li>
-              <img class="contactsImage" src="./images/linkedin.png" alt="LinkedIn">
-              LinkedIn: <a href="#">@ciira</a></li>
+              <img class="contactsImage" src="./images/linkedin.png" alt="LinkedInImage" loading="lazy">
+              <a href="https://www.linkedin.com/in/jacksonchira/">My LinkedIn</a></li>
             <li>
-              <img class="contactsImage" src="./images/location.png" alt="">
-              Nairobi, KE</li>
+              <img class="contactsImage" src="./images/location.png" alt="locationImage" loading="lazy"><a href="https://www.google.com/maps?q=-1.286389,36.817223" target="_blank">Currently in
+              Nairobi, KE</a></li>
           </ul>
         </div>
         <!-- contacts form -->
+         <div>
+          <h2>Reach out and let's bring your vision to life!</h2>
+          <p>Please fill in the required fields</p>
         <form class="contactForm">
           <div class="formDetails">
            
@@ -289,6 +303,7 @@
           </div>
           <button>Send Message</button>
         </form>
+         </div>
       </section>
     </main>
 

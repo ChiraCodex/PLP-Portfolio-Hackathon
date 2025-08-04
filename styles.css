@@ -33,6 +33,13 @@ body {
   text-decoration: none;
   color: #f1d21f;
   font-weight: 500;
+  font-size: 1.2rem;
+}
+.navLink:hover{
+  text-decoration:underline;
+  text-decoration-color: #f1d21f;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
 }
 .hireButton {
   border: 2px solid #f1d21f;
@@ -95,16 +102,28 @@ body {
 }
 .projectsButton a{
   text-decoration: none;
-  color: #0b0c10;
+  color: #1f2833;
   font-weight: 700;
+}
+.projectsButton:hover a{
+  color: #f1d21f;
 }
 
 .projectsButton:hover{
   transform: scale(1.05);
+  background-color: #0b582e;
+  color: #f1d21f;
 }
 .resumeButton {
  font-weight: 700;
-   color: #55c588;
+   color: #0b582e;
+   border: 4px solid #4c705c ;
+}
+.resumeButton:hover{
+  transform: scale(1.05);
+  color: #f1d21f;
+  border: 2px solid #0b582e;
+  background-color: #0b582e;
 }
 
 .Interact{
@@ -115,15 +134,17 @@ body {
   gap: 2rem;
   position: relative;
 }
-.Interact p{
+.Interact span{
   font-size: 1rem;
+  font-weight: 500;
   text-align: center;
   margin-bottom: -2rem;
 }
 .Interact img{
   padding-inline: 1rem;
   position: relative;
-  left: 4rem;
+  left: -1rem;
+  margin-top: 1rem;
   width: 40px;
   height: 40px;
  
@@ -138,10 +159,11 @@ body {
 
 /* About Section */
 .about {
-  padding: 80px 40px;
+  padding: 40px 20px;
 }
 .aboutText {
   color: #0b582e;
+  font-family: Boldonse, sans-serif;
   font-size: 3rem;
   text-align: center;
   margin-bottom: 2rem;
@@ -150,7 +172,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 4rem;
   margin-bottom: 2rem;
 }
 .journeyCard {
@@ -160,15 +182,18 @@ body {
 .journeyCard p{
   text-align: left;
 }
-.subTitle {
-  font-size: 1.5rem;
-  margin-bottom: -0.8rem;
+.journeyTitle {
+  font-size: 3rem;
+  letter-spacing: 2px;
   color: #0b582e;
+  text-align: left;
+  font-family: Courage, sans-serif;
+  margin-bottom: -1rem;
 }
 .certCard {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 6rem;
 }
 .cert,
 .experience {
@@ -177,6 +202,16 @@ body {
   border-radius: 10px;
   width: 100%;
   max-width: 300px;
+  font-size: 1rem;
+  color: #0b582e;
+}
+.certTitle, .expTitle{
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  color: #0b582e;
+
+  text-align: left;
+  margin-bottom: -1rem;
 }
 .logos {
   width: 60px;
@@ -205,23 +240,47 @@ body {
   color: #f1d21f;
   transform:translateY(-8px);
 }
+.textBlock:hover .percent{
+  color: #f1d21f;
+}
+.textBlock:hover .toolName{
+  color: #f1d21f;
+}
 .tools-tech {
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 10rem;
   margin-bottom: 2rem;
 }
-.toolsTitle{
+.tools-tech p{
+  font-size: 1rem;
+}
+.techTitle, .framesTitle{
+  color: #0b582e;
+  font-family: Courage, sans-serif;
   font-size: 1.5rem;
-  text-align: left;
+  letter-spacing: 4px;
+  margin-bottom: -1rem;
+}
+.toolsTitle{
+  font-size: 3rem;
+  letter-spacing: 2px;
+  color: #0b582e;
+  text-align: center;
+  font-family: Courage, sans-serif;
+  margin-bottom: -1rem;
 }
 .tools{
   display: flex;
-  justify-content: end;
+  justify-content: center;
+  gap: 3rem;
 }
 .toolName{
   font-size: 1rem;
+  font-weight: 700;
+  color: #0b582e;
 }
 .toolsText {
   display: flex;
@@ -253,26 +312,36 @@ body {
   background-color: #0b582e;
   color: #f1d21f;
 }
+.stackContainer{
+  margin-top: 9rem;
+}
+.stackCard{
+  margin-bottom: 6rem;
+}
 
 /* Services */
 .services {
-  padding: 10px 400px;
+  padding: 10px 200px;
+}
+.services p{
+  color: #0b582e;
+  font-size: 1rem;
 }
 .serviceTitle {
   text-align: center;
-  font-size: 2.5rem;
+  font-family: Boldonse, sans-serif;
+  font-size: 3rem;
   margin-bottom: 2rem;
   color: #0b582e;
 }
 .servicesCard {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1.5rem;
 }
 .card{
  border: 4px solid #bfc9c8;
   padding: 10px;
-  height: 44vh;
   border-radius: 30px;
 }
 .card p {
@@ -314,7 +383,8 @@ body {
   gap: 3rem;
 }
 .projects h2{
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-family: Boldonse, sans-serif;
   text-align: center;
   color: #0b582e;
 }
@@ -326,9 +396,9 @@ body {
 
 }
 .projectsGrid {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   grid-column:auto;
@@ -369,15 +439,24 @@ body {
   border: 2px solid #0b582e;
   font-weight: 700;
 }
-.projects button{
+.ViewMorebtn {
   display: flex;
   justify-content: center;
-  width: 100%;
-}
-.viewProjects {
+  margin-inline: 500px;
+  border: 2px solid #0b582e;
+  background-color: transparent;
   font-weight: 700;
-   padding-inline: -500px;
+  font-size: 1rem;
+  color: #0b582e;
+  border-radius: 10px;
 }
+.ViewMorebtn:hover{
+  background-color: #0b582e;
+}
+.ViewMorebtn:hover .viewProjects{
+  color: #f1d21f;
+}
+
 
 /* Contacts */
 .contacts {
@@ -386,14 +465,25 @@ body {
   margin-inline-end: 20rem;
   margin-bottom: 5rem;
 }
+.contacts h2{
+  text-align: center;
+  color: #0b582e;
+}
 
 .contactsCard {
+  margin-top: 9rem;
   flex: 1;
   min-width: 280px;
 }
 .contactsCard h2, p{
   text-align: center;
+  color: #0b582e;  
+}
+.contactsCard a{
+  text-decoration: none;
+  font-weight: 700;
   color: #0b582e;
+  font-size: 1rem;
 }
 .contactsCard ul{
   gap: 2rem;
@@ -407,6 +497,9 @@ body {
   gap: 2rem;
   background-color: #ceebdb;
  padding: 1rem;
+}
+.contactsCard li:hover{
+  background-color: #7edaa7;
 }
 .contactsImage {
   width: 30px;
@@ -588,9 +681,16 @@ form {
   .projectsButton, .resumeButton{
     padding: 1.5rem;
   }
+  .ItemCard{
+   padding: 20px 40px; 
+  
+  }
   .Interact{
     display: grid;
     justify-content: center;
+  }
+  .Interact img{
+    margin-left: 6rem;
   }
   .Interact article{
     display: flex;
@@ -616,9 +716,6 @@ form {
   }
   /* about */
   .about{margin-top: -40px;}
-  .projectsGrid {
-    padding-inline: 20px;
-  }
   .textBlock {
     width: 90%;
   }
@@ -674,4 +771,82 @@ form {
   }
 }
 
+
+/* animations */
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.slide-in-left {
+  transform: translateX(-50px);
+  opacity: 0;
+  animation: slideInLeft 0.8s ease-out forwards;
+}
+
+@keyframes slideInLeft {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-down {
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: slideDown 0.8s ease-out forwards;
+}
+
+@keyframes slideDown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* animate on loading */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeUp 0.8s ease-out forwards;
+}
+
+/* staggered animation for each section */
+.delay-1 {
+  animation-delay: 0.2s;
+}
+.delay-2 {
+  animation-delay: 0.4s;
+}
+.delay-3 {
+  animation-delay: 0.6s;
+}
+.delay-4 {
+  animation-delay: 0.8s;
+}
+.delay-5 {
+  animation-delay: 0.8s;
+}
 
